@@ -1649,7 +1649,7 @@ Wire Notes Line
 Wire Notes Line
 	650  650  5550 650 
 Text Notes 650  7250 0    50   ~ 0
-Atmega | NOT CHECKED | Label mit "?" nicht in Janis Grafik gefunden
+Atmega | NOT CHECKED | NO NOTICE
 Wire Wire Line
 	2000 2750 1900 2750
 Connection ~ 1900 2750
