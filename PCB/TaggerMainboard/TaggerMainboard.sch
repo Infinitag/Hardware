@@ -1902,8 +1902,6 @@ F 8 "Unavailable" H 10200 7450 50  0001 L BNN "Feld8"
 	1    10200 7450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10100 7100 10100 7250
 $Comp
 L power:+5V #PWR?
 U 1 1 5C96B071
@@ -1924,28 +1922,6 @@ F 1 "VBUS" H 10515 7723 50  0000 C CNN
 F 2 "" H 10500 7550 50  0001 C CNN
 F 3 "" H 10500 7550 50  0001 C CNN
 	1    10500 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5C96BA6B
-P 9650 6950
-F 0 "#PWR?" H 9650 6800 50  0001 C CNN
-F 1 "+5V" H 9665 7123 50  0000 C CNN
-F 2 "" H 9650 6950 50  0001 C CNN
-F 3 "" H 9650 6950 50  0001 C CNN
-	1    9650 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C96BBB1
-P 9650 7250
-F 0 "#PWR?" H 9650 7000 50  0001 C CNN
-F 1 "GND" H 9655 7077 50  0000 C CNN
-F 2 "" H 9650 7250 50  0001 C CNN
-F 3 "" H 9650 7250 50  0001 C CNN
-	1    9650 7250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1998,8 +1974,6 @@ F 3 "" H 8850 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8850 7300
-Wire Wire Line
-	9200 7100 9450 7100
 Connection ~ 9200 7100
 Wire Wire Line
 	8850 6900 8850 6800
@@ -2049,4 +2023,34 @@ F 3 "" H 14300 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14300 4250 14900 4250
+$Comp
+L Amplifier_Operational:LMV358 U?
+U 1 1 5C9D3923
+P 9800 7200
+F 0 "U?" H 9800 7567 50  0000 C CNN
+F 1 "LMV358" H 9800 7476 50  0000 C CNN
+F 2 "" H 9800 7200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 9800 7200 50  0001 C CNN
+	1    9800 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 7200 10100 7250
+Wire Wire Line
+	9200 7100 9500 7100
+Wire Wire Line
+	9500 7300 9500 7650
+Wire Wire Line
+	9500 7650 9300 7650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C9DC200
+P 9300 7650
+F 0 "#PWR?" H 9300 7500 50  0001 C CNN
+F 1 "+3.3V" H 9315 7823 50  0000 C CNN
+F 2 "" H 9300 7650 50  0001 C CNN
+F 3 "" H 9300 7650 50  0001 C CNN
+	1    9300 7650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
