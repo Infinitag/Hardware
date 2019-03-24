@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Crusher\Documents\Git\Infinitag\Hardware\PCB\TaggerMainboard\TaggerMainboard.sch)
-    (date "22.03.2019 15:27:30")
+    (date "24.03.2019 15:04:38")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -113,7 +113,7 @@
       (tstamp 5C859C2F))
     (comp (ref D5)
       (value CD1206-S01575)
-      (footprint Diode_SMD:D_0805_2012Metric)
+      (footprint Diode_SMD:D_1206_3216Metric)
       (datasheet ~)
       (libsource (lib Device) (part D_Small) (description "Diode, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -252,7 +252,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5C915FF5))
     (comp (ref C11)
-      (value C_Small)
+      (value 100nF)
       (footprint Capacitor_SMD:C_0805_2012Metric)
       (datasheet ~)
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
