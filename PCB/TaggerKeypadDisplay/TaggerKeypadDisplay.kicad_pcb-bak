@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 17)
+    (drawings 18)
     (tracks 352)
     (zones 0)
     (modules 35)
@@ -180,7 +180,7 @@
   )
 
   (module Infinitag:Bildmarke_6x6mm (layer F.Cu) (tedit 0) (tstamp 5D03E24E)
-    (at 36.4 81.6)
+    (at 39.8 83.6)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -1496,7 +1496,10 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (gr_text "|INFINITAG\n Keypad V2/03.19/10\n www.infinitag.io" (at 39 83.8) (layer F.SilkS)
+  (gr_text "Keypad V2/03.19/10\nwww.infinitag.io" (at 44 86.2) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)) (justify left))
+  )
+  (gr_text |INFINITAG (at 42.4 83.4) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left))
   )
   (gr_text |Infinitag (at 44.8 81) (layer F.Cu)
