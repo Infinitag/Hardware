@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 6)
-    (tracks 1166)
+    (tracks 1172)
     (zones 0)
     (modules 67)
     (nets 68)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.2)
+    (last_trace_width 0.4)
     (user_trace_width 0.2)
     (user_trace_width 0.4)
     (user_trace_width 1)
@@ -3761,7 +3761,7 @@
   (segment (start 93.199907 66.799999) (end 93.499906 66.5) (width 0.2) (layer F.Cu) (net 1))
   (segment (start 93 66.999906) (end 93.199907 66.799999) (width 0.2) (layer F.Cu) (net 1))
   (segment (start 92 83.0625) (end 90.46249 83.0625) (width 1) (layer F.Cu) (net 1) (tstamp 5CCEC542))
-  (via (at 92 83.0625) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 93.2 83.2) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 100.5 80.8) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 99.5 83) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (segment (start 100.5 80.8) (end 100.5 82) (width 1) (layer F.Cu) (net 1))
@@ -3810,6 +3810,12 @@
   (segment (start 106 59.362) (end 106 55.924264) (width 0.2) (layer F.Cu) (net 1))
   (segment (start 104.862 60.5) (end 106 59.362) (width 0.2) (layer F.Cu) (net 1))
   (segment (start 104 60.5) (end 104.862 60.5) (width 0.2) (layer F.Cu) (net 1))
+  (segment (start 92.1375 83.2) (end 92 83.0625) (width 1) (layer F.Cu) (net 1))
+  (segment (start 93.2 83.2) (end 92.1375 83.2) (width 1) (layer F.Cu) (net 1))
+  (segment (start 84.375 90.4) (end 84.425 90.35) (width 0.4) (layer F.Cu) (net 1))
+  (segment (start 83.3 90.4) (end 84.375 90.4) (width 0.4) (layer F.Cu) (net 1))
+  (segment (start 84.425 93) (end 85.625 93) (width 0.4) (layer F.Cu) (net 1))
+  (segment (start 79.575 93) (end 78.375 93) (width 0.4) (layer F.Cu) (net 1))
   (segment (start 78.6 82.625) (end 79.875 82.625) (width 0.2) (layer F.Cu) (net 2))
   (segment (start 71.4 78.725) (end 72.725 78.725) (width 0.2) (layer F.Cu) (net 2))
   (via (at 67.5 72.5) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 2))
@@ -4843,7 +4849,7 @@
   (segment (start 117.5 49) (end 117 49) (width 0.2) (layer B.Cu) (net 67))
   (segment (start 117 49) (end 106 60) (width 0.2) (layer B.Cu) (net 67))
 
-  (zone (net 2) (net_name +5V) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 2) (net_name +5V) (layer F.Cu) (tstamp 5D03DEB8) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -4969,7 +4975,7 @@
     (filled_polygon
       (pts
         (xy 107.40256 75.075) (xy 107.451843 75.322765) (xy 107.465 75.342456) (xy 107.465 76.186782) (xy 107.465001 76.186787)
-        (xy 107.465 82.748219) (xy 107.442765 82.860002) (xy 107.510395 83.2) (xy 107.530854 83.302856) (xy 107.781711 83.678291)
+        (xy 107.465 82.748219) (xy 107.442765 82.860002) (xy 107.510395 83.199999) (xy 107.530854 83.302856) (xy 107.781711 83.678291)
         (xy 107.876482 83.741615) (xy 111.058388 86.923523) (xy 111.121709 87.018289) (xy 111.497143 87.269146) (xy 111.828215 87.335)
         (xy 111.939997 87.357235) (xy 112.051779 87.335) (xy 122.55256 87.335) (xy 122.55256 87.7) (xy 122.620874 88.043435)
         (xy 122.815414 88.334586) (xy 123.106565 88.529126) (xy 123.45 88.59744) (xy 124.55 88.59744) (xy 124.752107 88.557238)
@@ -5591,7 +5597,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D03DEB5) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
