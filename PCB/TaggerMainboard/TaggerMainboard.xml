@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Crusher\Documents\Git\Infinitag\Hardware\PCB\TaggerMainboard\TaggerMainboard.sch</source>
-    <date>22.03.2019 20:37:51</date>
+    <date>19.04.2019 16:26:53</date>
     <tool>Eeschema (5.0.2)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -131,7 +131,7 @@
     </comp>
     <comp ref="D5">
       <value>CD1206-S01575</value>
-      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -290,7 +290,7 @@
       <tstamp>5C915FF5</tstamp>
     </comp>
     <comp ref="C11">
-      <value>C_Small</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>

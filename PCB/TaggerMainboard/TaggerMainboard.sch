@@ -1769,7 +1769,7 @@ Text GLabel 2000 6450 0    50   Input ~ 0
 DF_BUSY
 NoConn ~ 4800 1750
 Text Notes 600  11050 0    50   ~ 0
-Checklist\n-----------------------\n[  ] Prüfen ob der DFPlayer korrekt angeschlossen ist\n[  ] USB Footprint ist noch nicht der korrekte\n[  ] ESP Shield prüfen, ob so gut für uns\n[  ] Infinitag Shield prüfen, ob so gut für uns
+Checklist\n-----------------------\n[  ] DF Player: Pin-Abstand falsch\n[  ] Dioden Footprint falsch\n[  ] Resonator Footprint falsch\n[  ] ESP Shield prüfen, ob so gut für uns\n[  ] Infinitag Shield prüfen, ob so gut für uns
 $Comp
 L Connector_Generic:Conn_01x05 J9
 U 1 1 5CA0025D

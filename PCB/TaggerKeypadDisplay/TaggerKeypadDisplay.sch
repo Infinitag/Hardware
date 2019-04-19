@@ -590,7 +590,7 @@ U 1 1 5C9A40CA
 P 5050 2700
 F 0 "D1" H 5050 2916 50  0000 C CNN
 F 1 "1N4148" H 5050 2825 50  0000 C CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 5050 2525 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 2525 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5050 2700 50  0001 C CNN
 	1    5050 2700
 	1    0    0    -1  
@@ -601,7 +601,7 @@ U 1 1 5C9A4148
 P 5050 3050
 F 0 "D2" H 5050 3266 50  0000 C CNN
 F 1 "1N4148" H 5050 3175 50  0000 C CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 5050 2875 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 2875 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5050 3050 50  0001 C CNN
 	1    5050 3050
 	1    0    0    -1  
@@ -612,7 +612,7 @@ U 1 1 5C9A4190
 P 5050 3400
 F 0 "D3" H 5050 3616 50  0000 C CNN
 F 1 "1N4148" H 5050 3525 50  0000 C CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 5050 3225 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 3225 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5050 3400 50  0001 C CNN
 	1    5050 3400
 	1    0    0    -1  
@@ -968,4 +968,6 @@ Text GLabel 8300 3950 2    50   Input ~ 0
 display_SJ2
 Text GLabel 2350 5500 2    50   Input ~ 0
 display_SJ2
+Text Notes 7050 5800 0    50   ~ 0
+ToDo\n====================================\n[  ] Display-Anschluss zu weit entfernt
 $EndSCHEMATC
