@@ -1,30 +1,30 @@
-Tobi;Jani;Reference; Value; Footprint; Datasheet; Feld4; Feld5; Feld6; Feld7; Feld8
-X;;RN3;10K;Resistor_SMD:R_Array_Convex_4x0603;~;;;;;
-X;;RN4;10K;Resistor_SMD:R_Array_Convex_4x0603;~;;;;;
-X;;RN1;10K;Resistor_SMD:R_Array_Convex_4x0603;~;;;;;
-X;;RN2;10K;Resistor_SMD:R_Array_Convex_4x0603;~;;;;;
-X;;C8;10uF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;C1;10uF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;C2;10uF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;D1;1N4148;Diode_SMD:D_0805_2012Metric;http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf;;;;;
-X;;D2;1N4148;Diode_SMD:D_0805_2012Metric;http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf;;;;;
-X;;D3;1N4148;Diode_SMD:D_0805_2012Metric;http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf;;;;;
-X;;C3;2.2uF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;C4;2.2uF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;C5;2.2uF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;C6;2.2uF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;C7;2.2uF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;Q1;BSS138;Package_TO_SOT_SMD:SOT-23;https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf;;;;;
-X;;Q2;BSS138;Package_TO_SOT_SMD:SOT-23;https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf;;;;;
-;;J2;JST_PH_Display;Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical;~;;;;;
-;;J1;JST_PH_Keypad;Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical;~;;;;;
-X;;SW5;key_back;Infinitag:Infinitag_Keypad_Button;;;;;;
-X;;SW2;key_down;Infinitag:Infinitag_Keypad_Button;;;;;;
-X;;SW6;key_enter;Infinitag:Infinitag_Keypad_Button;;;;;;
-X;;SW3;key_left;Infinitag:Infinitag_Keypad_Button;;;;;;
-X;;SW4;key_right;Infinitag:Infinitag_Keypad_Button;;;;;;
-X;;SW1;key_up;Infinitag:Infinitag_Keypad_Button;;;;;;
-X;;U1;RT9193;RT9193-33GB:SOT94P279X129-5N;SOT-23-5 Richtek;RT9193-33GB;Richtek USA;RT9193 Series 300 mA 3.3 V Ultra-Low Noise Ultra-Fast CMOS LDO Regulator-SC-70-5;Unavailable;None
--;;JP2;SJ1;Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm;~;;;;;
--;;JP1;SJ2;Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm;~;;;;;
-X;;U2;UG-2864HSWEG01;UG-2864HSWEG01:1X30-0.7MM;None;WiseChip;None;UG-2864HSWEG01;0.96 128x64 White OLED;Unavailable
+Reference, Value, Footprint, Datasheet, Feld4, Feld5, Feld6, Feld7, Feld8
+"J1","JST_PH_Keypad","Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical","~"
+"J2","JST_PH_Display","Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical","~"
+"U2","UG-2864HSWEG01","UG-2864HSWEG01:1X30-0.7MM","None","WiseChip","None","UG-2864HSWEG01","0.96 128x64 White OLED","Unavailable"
+"C3","2.2uF","Capacitor_SMD:C_0805_2012Metric","~"
+"C4","2.2uF","Capacitor_SMD:C_0805_2012Metric","~"
+"C5","2.2uF","Capacitor_SMD:C_0805_2012Metric","~"
+"C6","2.2uF","Capacitor_SMD:C_0805_2012Metric","~"
+"JP1","SJ2","Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm","~"
+"JP2","SJ1","Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm","~"
+"C7","2.2uF","Capacitor_SMD:C_0805_2012Metric","~"
+"C8","10uF","Capacitor_SMD:C_0805_2012Metric","~"
+"U1","RT9193","RT9193-33GB:SOT94P279X129-5N","SOT-23-5 Richtek","RT9193-33GB","Richtek USA","RT9193 Series 300 mA 3.3 V Ultra-Low Noise Ultra-Fast CMOS LDO Regulator-SC-70-5","Unavailable","None"
+"C1","10uF","Capacitor_SMD:C_0805_2012Metric","~"
+"C2","10uF","Capacitor_SMD:C_0805_2012Metric","~"
+"Q1","BSS138","Package_TO_SOT_SMD:SOT-23","https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"
+"Q2","BSS138","Package_TO_SOT_SMD:SOT-23","https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"
+"RN3","10K","Resistor_SMD:R_Array_Convex_4x0603","~"
+"D1","1N4148","Diode_SMD:D_SOD-123","http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf"
+"D2","1N4148","Diode_SMD:D_SOD-123","http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf"
+"D3","1N4148","Diode_SMD:D_SOD-123","http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf"
+"RN4","10K","Resistor_SMD:R_Array_Convex_4x0603","~"
+"SW1","key_up","Infinitag:Infinitag_Keypad_Button",""
+"RN1","10K","Resistor_SMD:R_Array_Convex_4x0603","~"
+"SW2","key_down","Infinitag:Infinitag_Keypad_Button",""
+"SW3","key_left","Infinitag:Infinitag_Keypad_Button",""
+"SW4","key_right","Infinitag:Infinitag_Keypad_Button",""
+"SW5","key_back","Infinitag:Infinitag_Keypad_Button",""
+"RN2","10K","Resistor_SMD:R_Array_Convex_4x0603","~"
+"SW6","key_enter","Infinitag:Infinitag_Keypad_Button",""

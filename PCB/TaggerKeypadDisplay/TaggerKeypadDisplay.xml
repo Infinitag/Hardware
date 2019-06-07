@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Crusher\Documents\Git\Infinitag\Hardware\PCB\TaggerKeypadDisplay\TaggerKeypadDisplay.sch</source>
-    <date>19.04.2019 16:36:42</date>
+    <date>18.05.2019 15:32:21</date>
     <tool>Eeschema (5.0.2)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -171,7 +171,7 @@
     </comp>
     <comp ref="D1">
       <value>1N4148</value>
-      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf</datasheet>
       <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
       <sheetpath names="/" tstamps="/"/>
@@ -179,7 +179,7 @@
     </comp>
     <comp ref="D2">
       <value>1N4148</value>
-      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf</datasheet>
       <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
       <sheetpath names="/" tstamps="/"/>
@@ -187,7 +187,7 @@
     </comp>
     <comp ref="D3">
       <value>1N4148</value>
-      <footprint>Diode_SMD:D_0805_2012Metric</footprint>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf</datasheet>
       <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
       <sheetpath names="/" tstamps="/"/>

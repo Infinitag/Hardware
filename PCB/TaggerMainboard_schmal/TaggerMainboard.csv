@@ -1,63 +1,63 @@
-Tobi;Jani;Reference; Value; Footprint; Datasheet; Feld4; Feld5; Feld6; Feld7; Feld8
-X;;C4;100nF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;C2;100nF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;C1;100nF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;C3;100nF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;C13;100nF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;C12;100nF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;C11;100nF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;C6;100nF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;R2;10K;Resistor_SMD:R_0805_2012Metric;~;;;;;
-X;;R3;10K;Resistor_SMD:R_0805_2012Metric;~;;;;;
-X;;R9;10K;Resistor_SMD:R_0805_2012Metric;~;;;;;
-X;;R7;10K;Resistor_SMD:R_0805_2012Metric;~;;;;;
-X;;R6;10K;Resistor_SMD:R_0805_2012Metric;~;;;;;
-X;;R4;10K;Resistor_SMD:R_0805_2012Metric;~;;;;;
-X;;C9;10uF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-X;;R10;1K;Resistor_SMD:R_0805_2012Metric;~;;;;;
-X;;R11;1K;Resistor_SMD:R_0805_2012Metric;~;;;;;
-X;;R8;1K;Resistor_SMD:R_0805_2012Metric;~;;;;;
-X;;R1;1M;Resistor_SMD:R_0805_2012Metric;~;;;;;
-X;;C8;220uF/16V;Capacitor_SMD:CP_Elec_6.3x5.8;~;;;;;
-X;;C5;220uF/16V;Capacitor_SMD:CP_Elec_6.3x5.8;~;;;;;
-X;;C10;220uF/16V;Capacitor_SMD:CP_Elec_6.3x5.8;~;;;;;
-X;;C15;220uF/16V;Capacitor_SMD:CP_Elec_6.3x5.8;~;;;;;
-X;;C7;22pF;Capacitor_SMD:C_0805_2012Metric;~;;;;;
-;;L1;330uH;Inductor_SMD:L_Wuerth_HCI-1350;~;;;;;
-X;;R5;50 Ohm;Resistor_SMD:R_0805_2012Metric;~;;;;;
-X;;U5;AMS1117-3.3;Package_TO_SOT_SMD:SOT-223-3_TabPin2;http://www.advanced-monolithic.com/pdf/ds1117.pdf;;;;;
-X;;RN2;Array 10K;Resistor_SMD:R_Array_Convex_4x0603;~;;;;;
-X;;RN1;Array 10K;Resistor_SMD:R_Array_Convex_4x0603;~;;;;;
-X;;RN3;Array 470;Resistor_SMD:R_Array_Convex_4x0603;~;;;;;
-;;D5;CD1206-S01575;Diode_SMD:D_1206_3216Metric;~;;;;;
-X;;Y1;CSTCE16M0V53-R0;Crystal:Resonator_SMD-3Pin_7.2x3.0mm;~;;;;;
-X;;J3;DFPlayer;Infinitag:DFPlayer;~;;;;;
-;;Q1;FDN304P;FDN304P:SSOT-3;SC-59 ON Semiconductor;FDN304P;Unavailable;P-Channel 20 V 52 mOhm 1.8V Surface Mount Specified PowerTrench Mosfet SSOT-3;ON Semiconductor;None
-X;;U6;FT232RL;Package_SO:SSOP-28_5.3x10.2mm_P0.65mm;http://www.ftdichip.com/Products/ICs/FT232RL.htm;;;;;
-X;;J6;ICSP;Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical;~;;;;;
--;;J17;Infinitag_Shield;Infinitag:Infinitag_Shield;~;;;;;
-X;;U2;IRLML2502;IRLML2502TRPBF:SOT23;Single N-Channel 20 V 0.08 Ohm 12 nC 1.25 W Silicon SMT Mosfet - SOT-23;SOT-23-3 Infineon;Infineon;None;Unavailable;IRLML2502TRPBF
-X;;J16;JSP_PH_Sensor;Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical;~;;;;;
-X;;J8;JSP_PH_Sensor;Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical;~;;;;;
-;;J9;JST_PH_Display;Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical;~;;;;;
-X;;J11;JST_PH_Info;Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical;~;;;;;
-X;;J12;JST_PH_IrLED;Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical;~;;;;;
-;;J18;JST_PH_Keypad;Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical;~;;;;;
-X;;J15;JST_PH_LEDbar_left;Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical;~;;;;;
-X;;J7;JST_PH_LEDbar_right;Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical;~;;;;;
-X;;J13;JST_PH_Reload;Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical;~;;;;;
-X;;J2;JST_PH_Speaker;Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical;~;;;;;
-X;;J14;JST_PH_Special;Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical;~;;;;;
-X;;J10;JST_PH_Trigger;Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical;~;;;;;
-X;;D3;LED_green;LED_SMD:LED_1206_3216Metric;~;;;;;
-X;;D1;LED_RX_red;LED_SMD:LED_1206_3216Metric;~;;;;;
-X;;D2;LED_TX_red;LED_SMD:LED_1206_3216Metric;~;;;;;
-X;;U3;LM2596S-5;Package_TO_SOT_SMD:TO-263-5_TabPin3;http://www.ti.com/lit/ds/symlink/lm2596.pdf;;;;;
-;;U4;LMV358;LMV358AM8X:SOIC127P620X172-8N;http://www.ti.com/lit/ds/symlink/lmv324.pdf;;;;;
-X;;U1;MCU-ATMEGA2560-16AU(TQFP100);MCU-ATMEGA2560-16AU_TQFP100_:TQFP100-0.5-14X14MM;None;Microchip;TQFP-100 Microchip;Embedded microcontroller ATMEGA2560-16AU TQFP 100 _14x14_ Microchip Technology 8-Bit 16 MHz I/O number 86;Unavailable;ATMEGA2560-16AU
-X;;F1;Poly 500mA;Fuse:Fuse_1812_4532Metric;~;;;;;
-X;;D4;S534;Diode_SMD:D_0805_2012Metric;~;;;;;
-X;;SW1;SW_Reset;Button_Switch_SMD:SW_SPST_FSMSM;;;;;;
-X;;J5;USB_OTG;Infinitag:Micro USB Jack; ~;;;;;
-X;;J1;VIN;Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical;~;;;;;
--;;J4;WiFi Connector;Infinitag:Infinitag_ESP_Shield;~;;;;;
+Reference; Value; Footprint
+U1;MCU-ATMEGA2560-16AU(TQFP100);MCU-ATMEGA2560-16AU_TQFP100_:TQFP100-0.5-14X14MM
+C4;100nF;Capacitor_SMD:C_0805_2012Metric
+C2;100nF;Capacitor_SMD:C_0805_2012Metric
+C1;100nF;Capacitor_SMD:C_0805_2012Metric
+Y1;CSTCE16M0V53-R0;Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm
+R1;1M;Resistor_SMD:R_0805_2012Metric
+C3;100nF;Capacitor_SMD:C_0805_2012Metric
+R2;10K;Resistor_SMD:R_0805_2012Metric
+R3;10K;Resistor_SMD:R_0805_2012Metric
+J6;ICSP;Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical
+SW1;SW_Reset;Button_Switch_SMD:SW_SPST_FSMSM
+R9;10K;Resistor_SMD:R_0805_2012Metric
+C7;22pF;Capacitor_SMD:C_0805_2012Metric
+D5;CD1206-S01575;Diode_SMD:D_1206_3216Metric
+D3;LED_green;LED_SMD:LED_1206_3216Metric
+J9;JST_PH_Trigger;Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical
+J13;JST_PH_Reload;Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical
+J10;JST_PH_Info;Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical
+J14;JST_PH_Special;Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical
+J11;JST_PH_LEDbar_right;Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical
+J15;JST_PH_LEDbar_left;Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical
+J16;JSP_PH_Sensor;Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical
+J7;JSP_PH_Sensor;Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical
+U5;AMS1117-3.3;Package_TO_SOT_SMD:SOT-223-3_TabPin2
+C9;10uF;Capacitor_SMD:C_0805_2012Metric
+J2;JST_PH_Speaker;Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical
+U6;FT232RL;Package_SO:SSOP-28_5.3x10.2mm_P0.65mm
+R10;1K;Resistor_SMD:R_0805_2012Metric
+R11;1K;Resistor_SMD:R_0805_2012Metric
+C14;100nF;Capacitor_SMD:C_0805_2012Metric
+C12;100nF;Capacitor_SMD:C_0805_2012Metric
+J5;USB_OTG;Infinitag:Micro USB Jack
+F1;Poly 500mA;Fuse:Fuse_1812_4532Metric
+C11;100nF;Capacitor_SMD:C_0805_2012Metric
+U3;LM2596S-5;Package_TO_SOT_SMD:TO-263-5_TabPin3
+D4;S534;Diode_SMD:D_SMA
+L1;330uH;Inductor_SMD:L_Wuerth_HCI-1350
+C8;220uF/16V;Capacitor_SMD:CP_Elec_6.3x5.8
+C5;220uF/16V;Capacitor_SMD:CP_Elec_6.3x5.8
+J1;VIN;Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical
+C6;100nF;Capacitor_SMD:C_0805_2012Metric
+R7;10K;Resistor_SMD:R_0805_2012Metric
+R6;10K;Resistor_SMD:R_0805_2012Metric
+J18;JST_PH_Keypad;Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical
+U4;LMV358;LMV358AM8X:SOIC127P620X172-8N
+D1;LED_RX_red;LED_SMD:LED_1206_3216Metric
+D2;LED_TX_red;LED_SMD:LED_1206_3216Metric
+J4;WiFi Connector;Infinitag:Infinitag_ESP_Shield_Lang
+Q1;FDN304P;FDN304P:SSOT-3
+RN3;Array 10K;Resistor_SMD:R_Array_Convex_4x0603
+RN2;Array 10K;Resistor_SMD:R_Array_Convex_4x0603
+J3;DFPlayer;Infinitag:DFPlayer
+R8;1K;Resistor_SMD:R_0805_2012Metric
+J8;JST_PH_Display;Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical
+J12;JST_PH_IrLED;Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical
+C10;220uF/16V;Capacitor_SMD:CP_Elec_6.3x5.8
+U2;IRLML2502;IRLML2502TRPBF:SOT23
+R5;50 Ohm;Resistor_SMD:R_0805_2012Metric
+R4;10K;Resistor_SMD:R_0805_2012Metric
+J17;Infinitag_Shield;Infinitag:Infinitag_Shield
+RN1;Array 470;Resistor_SMD:R_Array_Convex_4x0603
+C13;220uF/16V;Capacitor_SMD:CP_Elec_6.3x5.8
